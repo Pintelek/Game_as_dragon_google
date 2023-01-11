@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 10px;
+  margin: 0 auto;
+  width: 95%;  
+}
+
+.game{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-bottom: 1px solid #000;
+  background-image: url(./img/ddddddddeee.png);
+  background-repeat:repeat-x;
+  background-position:0 bottom;
+  background-size:33% 50%;
+  animation:7.3s infinite linear back;
+}
+
+@keyframes back{
+  from{
+    background-position: 0 bottom;
+  }
+  to{
+    background-position: -99% bottom;
+  }
+}
+
+.pers{
+  float: left;
+  width: 90px;
+  height: 90px;
+  background: url(./img/rider.png) 0 0/contain no-repeat;
+  position: relative;
+  top: 300px;
+  left: 30px;
+}
+
+.block{
+  float: right;
+  width: 120px;
+  height: 120px;
+  background: url(./img/bbbbb.png) 0 0/contain no-repeat;
+  position: relative;
+  top: 330px;
+  right: 0;
+  animation: fail 6s linear infinite;
+}
+
+@keyframes fail{
+  from{
+    right: 0;
+  }
+  to{
+    right: 1600px;
+  }
+}
+
+.jump{
+  animation: jump 1500ms linear;
+}
+
+@keyframes jump{
+  0%{
+    top: 300px;
+  }
+ 
+  25%{
+    top: 230px;
+  }
+  75%{
+    top: 270px;
+  }
+  100%{
+    top: 300px;
+  }
+}
