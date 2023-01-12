@@ -18,7 +18,7 @@
   background-image: url(./img/ddddddddeee.png);
   background-repeat:repeat-x;
   background-position:0 bottom;
-  background-size:33% 50%;
+  background-size:33% auto;
   animation:7.3s infinite linear back;
 }
 
@@ -43,13 +43,13 @@
 
 .block{
   float: right;
-  width: 120px;
-  height: 120px;
-  background: url(./img/bbbbb.png) 0 0/contain no-repeat;
+  width: 100px;
+  height: 40px;
+  background: url(./img/Block1.png)0 0/100% 100% no-repeat;
   position: relative;
-  top: 330px;
+  top: 350px;
   right: 0;
-  animation: fail 6s linear infinite;
+  animation: fail 5s linear infinite;
 }
 
 @keyframes fail{
@@ -57,7 +57,7 @@
     right: 0;
   }
   to{
-    right: 1600px;
+    right: 100vw;
   }
 }
 
@@ -70,13 +70,21 @@
     top: 300px;
   }
  
-  25%{
-    top: 230px;
+  15%{
+    top: 220px;
   }
-  75%{
-    top: 270px;
+  255%{
+    top: 260px;
   }
   100%{
     top: 300px;
   }
+}
+.store{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
