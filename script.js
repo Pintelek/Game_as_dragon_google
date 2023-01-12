@@ -33,10 +33,10 @@ function end(){
   let riderTop = parseInt(window.getComputedStyle(rider).getPropertyValue('top'));
   let blockLeft = parseInt(window.getComputedStyle(block).getPropertyValue('right'));
 
-  if(!(blockLeft > 1250 && blockLeft < 1450 && riderTop > 280) && blockLeft > 1250 && blockLeft < 1450){
+  if(!(blockLeft > 350 && blockLeft < 450 && riderTop > 280) && blockLeft > 350 && blockLeft < 450){
     result++;
   }
-  else if(blockLeft > 1250 && blockLeft < 1450 && riderTop > 280){
+  else if(blockLeft > 3500 && blockLeft < 4500 && riderTop > 280){
     alert(`GAMEOVER, ваш счет ${result}`)
     result = 0;
   }
