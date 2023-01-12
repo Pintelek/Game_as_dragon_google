@@ -81,9 +81,9 @@
   }
 }
 .store{
-  position: absolute;
+  position: fixed;
   top: 10px;
-  left: 15px;
+  left: 45px;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
