@@ -9,15 +9,14 @@ var blockPosleft ;
 var blockTop ; 
 
 function crahs (){
-  // console.log(parseInt(block.getBoundingClientRect().x))
+  
   
    riderPosLeft = parseInt(rider.getBoundingClientRect().left);
    riderPosRight = parseInt(rider.getBoundingClientRect().right);
    riderPosBottom = parseInt(rider.getBoundingClientRect().bottom);
    blockPosleft = parseInt(block.getBoundingClientRect().left);
    blockTop = parseInt(block.getBoundingClientRect().top);
-// 
-// console.log(!(blockPosleft < riderPosRight && blockPosleft > riderPosLeft && blockTop < riderPosBottom) && blockTop > riderPosBottom);
+
 
 
   if(blockPosleft < riderPosRight && blockPosleft > riderPosLeft && blockTop < riderPosBottom){

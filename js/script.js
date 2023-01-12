@@ -1,6 +1,4 @@
-// const rider = document.querySelector('.pers');
-// const block = document.querySelector('.block');
-// let result = 0;
+
 document.querySelector('html').addEventListener('click',jump);
 document.querySelector('html').addEventListener('keypress', (event)=>{
   
@@ -29,6 +27,6 @@ setTimeout(()=>{
 }
 
 setInterval(crahs,100);
-// setInterval(getResult,300);
+
 
 
