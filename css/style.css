@@ -15,7 +15,7 @@
   width: 100%;
   height: 400px;
   border-bottom: 1px solid #000;
-  background-image: url(./img/ddddddddeee.png);
+  background-image: url(../img/ddddddddeee.png);
   background-repeat:repeat-x;
   background-position:0 bottom;
   background-size:33% auto;
@@ -35,7 +35,7 @@
   float: left;
   width: 90px;
   height: 90px;
-  background: url(./img/rider.png) 0 0/contain no-repeat;
+  background: url(../img/rider.png) 0 0/contain no-repeat;
   position: relative;
   top: 300px;
   left: 30px;
@@ -45,7 +45,7 @@
   float: right;
   width: 100px;
   height: 40px;
-  background: url(./img/Block1.png)0 0/100% 100% no-repeat;
+  background: url(../img/Block1.png)0 0/100% 100% no-repeat;
   position: relative;
   top: 350px;
   right: 0;
