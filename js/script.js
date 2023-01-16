@@ -17,7 +17,7 @@ setTimeout(()=>{
   }, 1500)
   
   setTimeout (()=>{ 
-    if(blockPosleft < riderPosRight && blockPosleft > riderPosLeft && blockTop > riderPosBottom ){
+    if(blockPosleft < riderPosRight && blockPosleft > riderPosLeft && blockTop > riderPosBottom + 10 ){
       console.log('daaaaa')
       result++;
       shownResult();

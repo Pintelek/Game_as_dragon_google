@@ -19,7 +19,7 @@ function crahs (){
 
 
 
-  if(blockPosleft < riderPosRight && blockPosleft > riderPosLeft && blockTop < riderPosBottom){
+  if(blockPosleft < riderPosRight && blockPosleft > riderPosLeft && (blockTop + 30) < riderPosBottom){
    alert(`GAME OVER        Ваш счет: ${result}`)
    result = 0;
    shownResult()
